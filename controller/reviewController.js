@@ -33,7 +33,7 @@ module.exports.top3Reviews = async function top3Reviews(req, res) {
     if (reviews) {
       return res.json({
         message:
-          "Top 3 reviews retrieved top3Reviews reviewController controller",
+          "Top 3 reviews are retrieved top3Reviews reviewController controller",
         data: reviews,
       });
     } else {
